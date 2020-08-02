@@ -4,6 +4,9 @@
 [![Build Status](https://jenkins.kodi.tv/view/Addons/job/kodi-pvr/job/pvr.iptvsimple/job/Matrix/badge/icon)](https://jenkins.kodi.tv/blue/organizations/jenkins/kodi-pvr%2Fpvr.iptvsimple/branches/)
 [![Coverity Scan Build Status](https://scan.coverity.com/projects/5120/badge.svg)](https://scan.coverity.com/projects/5120)
 
+## I-Cat
+[![Build Status](https://travis-ci.com/I-Cat/pvr.iptvsimple.svg?branch=Matrix)](https://travis-ci.com/I-Cat/pvr.iptvsimple)
+
 # IPTV Simple PVR
 
 IPTV Live TV and Radio PVR client addon for [Kodi](https://kodi.tv)
