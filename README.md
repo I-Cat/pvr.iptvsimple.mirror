@@ -5,7 +5,7 @@
 [![Coverity Scan Build Status](https://scan.coverity.com/projects/5120/badge.svg)](https://scan.coverity.com/projects/5120)
 
 ## I-Cat
-[![Build Status](https://travis-ci.com/I-Cat/pvr.iptvsimple.svg?branch=Matrix)](https://travis-ci.com/I-Cat/pvr.iptvsimple)
+[![Build Status](https://travis-ci.com/I-Cat/pvr.iptvsimple.svg?branch=I-Cat-1)](https://travis-ci.com/I-Cat/pvr.iptvsimple)
 
 # IPTV Simple PVR
 
