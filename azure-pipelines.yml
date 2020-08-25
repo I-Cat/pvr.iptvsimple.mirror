@@ -48,9 +48,9 @@ jobs:
         cd ..
         git clone --branch master --depth=1 https://github.com/xbmc/xbmc.git kodi
         cd $(Build.SourcesDirectory)
-        mkdir build
+        nd build
         cd build
-        mkdir "definition/$(app_id)"
+        md "definition/$(app_id)"
         echo $(app_id) . . > definition/$(app_id)/$(app_id).txt
         mklink /J "$(Pipeline.Workspace)/$(app_id)" "$(Build.SourcesDirectory)"
 
