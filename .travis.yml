@@ -23,12 +23,12 @@ matrix:
       compiler: clang
     - os: osx
       osx_image: xcode10.2
-
 #
 # The addon source is automatically checked out in $TRAVIS_BUILD_DIR,
 # we'll put the Kodi source on the same level
 #
-before_script:
+
+before_script: |
   - cd $TRAVIS_BUILD_DIR/..
   - git clone --branch master --depth=1 https://github.com/xbmc/xbmc.git
   - cd ${app_id} && mkdir build && cd build
