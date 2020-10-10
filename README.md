@@ -1,5 +1,4 @@
-## I-Cat
-[![Build Status](https://travis-ci.com/I-Cat/pvr.iptvsimple.mirror.svg?branch=Matrix)](https://travis-ci.com/I-Cat/pvr.iptvsimple.mirror)|
+# I-Cat [![Build Status](https://travis-ci.com/I-Cat/pvr.iptvsimple.mirror.svg?branch=Matrix)](https://travis-ci.com/I-Cat/pvr.iptvsimple.mirror)
 
 ## Team-Kodi 
 [![License: GPL-2.0-or-later](https://img.shields.io/badge/License-GPL%20v2+-blue.svg)](LICENSE.md)
