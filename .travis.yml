@@ -20,7 +20,14 @@ matrix:
     - os: linux
       dist: xenial
       sudo: required
-      compiler: clang
+      compiler: Clang
+    - os: ubuntu
+    - dist: 20.04 
+    - compiler: Clang 
+    - tools: CMake 3.17.0
+#clang v8.0.1, 9.0.1, 10.0.0
+# Focal Fossa
+    - sudo: required
     - os: osx
       osx_image: xcode10.2
 #
