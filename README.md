@@ -1,6 +1,8 @@
+## I-Cat
+[![Build Status](https://travis-ci.com/I-Cat/pvr.iptvsimple.mirror.svg?branch=Matrix)](https://travis-ci.com/I-Cat/pvr.iptvsimple.mirror)|
+
+## Team-Kodi 
 [![License: GPL-2.0-or-later](https://img.shields.io/badge/License-GPL%20v2+-blue.svg)](LICENSE.md)
-# I-Cat
-[![Build Status](https://travis-ci.com/I-Cat/pvr.iptvsimple.mirror.svg?branch=Matrix)](https://travis-ci.com/I-Cat/pvr.iptvsimple.mirror)
 [![Build Status](https://travis-ci.org/kodi-pvr/pvr.iptvsimple.svg?branch=Matrix)](https://travis-ci.org/kodi-pvr/pvr.iptvsimple/branches)
 [![Build Status](https://dev.azure.com/teamkodi/kodi-pvr/_apis/build/status/kodi-pvr.pvr.iptvsimple?branchName=Matrix)](https://dev.azure.com/teamkodi/kodi-pvr/_build/latest?definitionId=57&branchName=Matrix)
 [![Build Status](https://jenkins.kodi.tv/view/Addons/job/kodi-pvr/job/pvr.iptvsimple/job/Matrix/badge/icon)](https://jenkins.kodi.tv/blue/organizations/jenkins/kodi-pvr%2Fpvr.iptvsimple/branches/)
