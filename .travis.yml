@@ -19,10 +19,19 @@ matrix:
       compiler: gcc
     - os: linux
       dist: xenial
-      sudo: required
+      sudo: equired
       compiler: clang
     - os: osx
       osx_image: xcode10.2
+    - os: windows
+      version: 10.0.19041.546
+      compiler: cplusplus
+      compiler: clang
+      compiler: gcc
+      compiler: cmake
+
+      
+
 #
 # The addon source is automatically checked out in $TRAVIS_BUILD_DIR,
 # we'll put the Kodi source on the same level
