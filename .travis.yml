@@ -9,7 +9,7 @@ language: cpp
 #
 env:
   global:
-    - app_id=pvr.iptvsimple
+     app_id: "pvr.iptvsimple"
 
 matrix:
   include:
@@ -22,27 +22,43 @@ matrix:
       sudo: equired
       compiler: clang
     - os: osx
-      osx_image: xcode10.2
-    - os: windows
-      version: 10.0.19041.546
-      compiler: cplusplus
-      compiler: clang
-      compiler: gcc
-      compiler: cmake
-
-      
-
+      osx_image: xcode10.6
+    - os: osx
+      osx_image: xcode10.7
+    - os: osx
+      osx_image: xcode10.8
+    - os: osx
+      osx_image: xcode10.9
+    - os: osx
+      osx_image: xcode10.10
+    - os: osx
+      osx_image: xcode10.11
+    - os: osx
+      osx_image: xcode10.12
+    
+ 
+ 
+ #   - os: windows
+ #     version: 10.0.19041.546
+ #     compiler: cplusplus
+ #     compiler: clang
+ #     compiler: gcc
+ #     compiler: cmake
 #
 # The addon source is automatically checked out in $TRAVIS_BUILD_DIR,
 # we'll put the Kodi source on the same level
 #
 
 before_script:
-  - cd $TRAVIS_BUILD_DIR/..
-  - git clone --branch master --depth=1 https://github.com/xbmc/xbmc.git
-  - cd ${app_id} && mkdir build && cd build
-  - mkdir -p definition/${app_id}
-  - echo ${app_id} $TRAVIS_BUILD_DIR $TRAVIS_COMMIT > definition/${app_id}/${app_id}.txt
+TRAVIS_BUILD_DIR: |
+  - cd / D:/
+  - git clone --branch master --depth=0 https://github.com/xbmc/xbmc.git
+  - git colne --branch matrix --depth=0 https://github.com/I-Cat/pvr.iptvsimple.mirror.git
+  - cd /pvr.iptvsimple
+  - md build
+  - cd /build
+  - md -p definition/${app_id}
+  - echo ${app_id} $TRAVIS_BUILD_DIR $TRAVIS_COMMIT => definition/${app_id}/${app_id}.txt
   - cmake -DADDONS_TO_BUILD=${app_id} -DADDON_SRC_PREFIX=$TRAVIS_BUILD_DIR/.. -DADDONS_DEFINITION_DIR=$TRAVIS_BUILD_DIR/build/definition -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=$TRAVIS_BUILD_DIR/../xbmc/addons -DPACKAGE_ZIP=1 $TRAVIS_BUILD_DIR/../xbmc/cmake/addons
 
 script: make
